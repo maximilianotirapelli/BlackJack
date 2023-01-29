@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    height: 50px;
+    width: fit-content;
+    padding: 10px 30px 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 0 3px 1px rgba(141, 255, 175, 0.5);
+    border-radius: 10px;
+}
+
+.layout{
+    text-align: center;
+}
+
+.wrapper{
+    margin: auto;
+    width: fit-content;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    padding-top: 60px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+}
+
+.card[data-red=true]{
+    color: red;
+}
+
+.back{
+    content: "";
+    background-color: green;
+}
+
+.container{
+    margin: 30px;
+}
+
+.background{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.notice{
+    height: fit-content;
+    width: fit-content;
+    padding: 5%;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.notice p{
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+    line-height: 150%;
+}
